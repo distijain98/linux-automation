@@ -1,0 +1,7 @@
+- hosts: root694
+  vars_files:
+      - groupvar.yml
+  tasks:
+     - group:
+            name: "{{ grpname }}"
+            state: present

@@ -1,0 +1,3 @@
+- hosts: root694
+  tasks:
+    - reboot:

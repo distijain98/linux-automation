@@ -1,0 +1,7 @@
+- hosts: root694
+  vars_files:
+     - uservar.yml
+  tasks:
+      - user:
+          name: "{{ username }}"
+          state: present

@@ -1,0 +1,4 @@
+dirpath: "/root/Desktop/vimal"
+own: "root"
+grp: "prabhat"
+mod: "0777"
